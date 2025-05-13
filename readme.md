@@ -116,7 +116,7 @@
    > 2. 指定文件在暂存区和本地仓库的不同：`git diff --cached`;
    > 3. 查看提交历史：git log；参数`-p`展开每次提交的内容差异，用`-2`显示最近的两次更新，如`git log -p -2`;
 
-6. `git relog` 查看历史操作
+6. `git reflog` 查看历史操作
 7. `git reset --hard commitID` 回退版本
 
 #### 撤销
